@@ -20,10 +20,8 @@ export class InstallationController {
 		downloadurl: "http://google.com",
 	};
     
-	response.setData(data);
-	response.setMessage('Success');
 	
-    res.json(response);
+    res.json(data);
   }
   
   

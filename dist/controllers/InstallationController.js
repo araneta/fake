@@ -24,9 +24,7 @@ class InstallationController {
                 whatsnew: "New version",
                 downloadurl: "http://google.com",
             };
-            response.setData(data);
-            response.setMessage('Success');
-            res.json(response);
+            res.json(data);
         });
     }
 }
