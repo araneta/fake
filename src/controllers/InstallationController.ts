@@ -12,7 +12,7 @@ import TrialInfo from "../dto/TrialInfo";
 export class InstallationController {
   
 
-  static async getDevice(req: Request, res: Response) {
+  static async feed(req: Request, res: Response) {
 	let response = new SimpleResponse();
     var data = {
 		version: "1",
