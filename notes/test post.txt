@@ -1,0 +1,26 @@
+curl --header "Content-Type: application/json" \
+  --request POST \
+  --data '{"device_id":"aa9c47d3-ef05ac4a-ef05ac4a-6a47bcdf-4","app_id":3}' \
+  http://localhost:3000/api/trial
+
+
+curl --header "Content-Type: application/json" \
+  --request POST \
+  --data '{"device_id":"aa9c47d3-ef05ac4a-ef05ac4a-6b47bcdf-4","app_id":3}' \
+  http://localhost:3000/api/trial
+
+curl --header "Content-Type: application/json" \
+  --request POST \
+  --data '{"device_id":"ab9c47d3-ef05ac4a-ef05ac4a-6b47bcdf-4","app_id":3}' \
+  http://localhost:3000/api/trial
+
+curl --header "Content-Type: application/json" \
+  --request POST \
+  --data '{"device_id":"ab1c47d3-ef05ac4a-ef05ac4a-6b47bcdf-4","app_id":3}' \
+  http://localhost:3000/api/trial
+
+
+curl --header "Content-Type: application/json" \
+  --request POST \
+  --data '{"device_id":"ac1c47d3-ef05ac4a-ef05ac4a-6b47bcdf-4","app_id":3}' \
+  http://localhost:3000/api/trial
